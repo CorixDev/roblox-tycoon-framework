@@ -1,0 +1,28 @@
+{
+  "name": "roblox-tycoon-framework",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Network": {
+        "$path": "src/shared/Network"
+      },
+      "Shared": {
+        "Config": { "$path": "src/shared/Config" },
+        "Types": { "$path": "src/shared/Types" },
+        "Util": { "$path": "src/shared/Util" }
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
